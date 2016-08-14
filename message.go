@@ -54,5 +54,6 @@ func ParseMessage(data []byte) (*Message, error) {
 		return nil, ErrInvalidMessageType
 	}
 	msg.TransactionID = binary.BigEndian.Uint16(data[1:3])
+	msg.Content = data[3:]
 	return &msg, nil
 }

@@ -1,6 +1,6 @@
 # GRAPES: a Generic Environment for P2P Streaming
 
-[![](https://godoc.org/github.com/zaninime/go-grapes?status.svg)](https://godoc.org/github.com/zaninime/go-grapes) [![Build Status](https://travis-ci.org/zaninime/go-grapes.svg?branch=master)](https://travis-ci.org/zaninime/go-grapes) [![Coveralls](https://img.shields.io/coveralls/zaninime/go-grapes.svg?maxAge=2592000)](https://coveralls.io/)
+[![](https://godoc.org/github.com/zaninime/go-grapes?status.svg)](https://godoc.org/github.com/zaninime/go-grapes) [![Build Status](https://travis-ci.org/zaninime/go-grapes.svg?branch=master)](https://travis-ci.org/zaninime/go-grapes) [![Coverage Status](https://coveralls.io/repos/github/zaninime/go-grapes/badge.svg?branch=master)](https://coveralls.io/github/zaninime/go-grapes?branch=master)
 
 This is a (partial) port of [GRAPES library](http://peerstreamer.org/GRAPES/) in pure Go. I developed this as a part of my Bachelor thesis.
 

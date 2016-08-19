@@ -3,6 +3,7 @@ go:
   - 1.6
   - 1.7
 install:
+  - go get -t -v ./...
   - go get golang.org/x/tools/cmd/cover
   - go get github.com/mattn/goveralls
 script:
@@ -13,4 +14,3 @@ after_success:
 env:
   global:
     secure: IRB9tDFsitW4XzkbzsBYN3JeLruToHeI5YFt8kXJLYOg1TQIoOkg3p6gsnWclwWJtiboyW4QVfgH6QSA+ozPD9v/DbOzXTF4P3GxTzfRKklvmWuFrv13E0W2cKat9P3rRdt+cF/d5Y/YzWPBdeKsul9fj0YLp4sC6yUN9aMarv1b4XxuD03sZyFwxXZe84Vf/ByC4X+Tl6tdG4NudqX/XGhm5U4PWdqIqUcwCPivkdOwaeVm5wIc+6d8I2D/nieT9mj9dHcP8I0swJBTu5ncPVwIhBEViWxJn4JScdk4sBSQ6FAP2MEJVktk2atMix6xmRhn/3PG1LPFGPlWLb+KtEXnnifwGGz3GpzlOVH62MZ9dZ5dgJbEXiWRK7BBkSIfxueYw7Ryj1ZPDHvHLVCYsLqd2x0/hOSvhntOLnKTOF9ChbWPyQRg5FMg0PYUXY0GiowvkZxemMdq1K+gayfvbLPoWfCDsKyCZOdKMQMEI2XG3mO7AbauZO1I/cKcmBmk7cOD9x8Xfj60aJOGimK5Fiwk49ml45dB2pZVIuPN9gJWb0aCuE1f+TaNryop9gfEeS1KzbFQ8MU1MgC4JwXXAteJyHGcluM+xcwtYGLWe3COMbG83N9SUeePJcaYOUvdTVjn7Itq9FCn72u2ruJBt5K0Wvl+BMrv/V0IOOYkqwE=
-    
